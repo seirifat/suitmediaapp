@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\volley-afebc90c11ba113d0ae520db919fba337ce83fd2.jar" />
+    </item>
+    <item
+        jar="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\classes-e220d573cfcf2f1d32ce670c8cb474040a1f4831.jar" />
+    </item>
+    <item
+        jar="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\classes-072bf61dedc70b8cb418b34f808aeb88ae554cba.jar" />
+    </item>
+    <item
+        jar="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-10334a4e0c99e837e84579044e9529f0cce61356.jar" />
+    </item>
+    <item
+        jar="D:\Developer\Android\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-a7de92550cbf10bb6ac126c0af596255506208b3.jar" />
+    </item>
+
+</items>

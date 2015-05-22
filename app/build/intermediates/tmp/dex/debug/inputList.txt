@@ -1,0 +1,6 @@
+D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\classes\debug
+D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-a7de92550cbf10bb6ac126c0af596255506208b3.jar
+D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\volley-afebc90c11ba113d0ae520db919fba337ce83fd2.jar
+D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-10334a4e0c99e837e84579044e9529f0cce61356.jar
+D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\classes-072bf61dedc70b8cb418b34f808aeb88ae554cba.jar
+D:\Developer\Android\AndroidWorkspace\Suitmediaapp\app\build\intermediates\pre-dexed\debug\classes-e220d573cfcf2f1d32ce670c8cb474040a1f4831.jar
