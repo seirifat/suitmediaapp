@@ -1302,8 +1302,8 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020033;
     }
     public static final class id {
-        public static final int Itemdate=0x7f08004a;
-        public static final int Itemname=0x7f080049;
+        public static final int Itemdate=0x7f08004d;
+        public static final int Itemname=0x7f08004c;
         public static final int action_bar=0x7f080031;
         public static final int action_bar_activity_content=0x7f080000;
         public static final int action_bar_container=0x7f080030;
@@ -1317,7 +1317,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f08002e;
         public static final int action_mode_bar_stub=0x7f08002d;
         public static final int action_mode_close_button=0x7f080020;
-        public static final int action_settings=0x7f08004b;
+        public static final int action_settings=0x7f08004e;
         public static final int activity_chooser_view_content=0x7f080021;
         public static final int always=0x7f080016;
         public static final int beginning=0x7f080013;
@@ -1336,13 +1336,14 @@ containing a value of this type.
         public static final int etNama=0x7f080046;
         public static final int expand_activities_button=0x7f080022;
         public static final int expanded_menu=0x7f080028;
-        public static final int gridView=0x7f080045;
+        public static final int gridView1=0x7f080045;
         public static final int home=0x7f080004;
         public static final int homeAsUp=0x7f08000d;
         public static final int icon=0x7f080026;
         public static final int ifRoom=0x7f080018;
         public static final int image=0x7f080023;
-        public static final int imageView=0x7f080048;
+        public static final int ivGambarGuest=0x7f080048;
+        public static final int linearLayout=0x7f080049;
         public static final int listMode=0x7f080009;
         public static final int list_item=0x7f080025;
         public static final int middle=0x7f080015;
@@ -1373,7 +1374,9 @@ containing a value of this type.
         public static final int textView2=0x7f080041;
         public static final int theList=0x7f08003f;
         public static final int title=0x7f080027;
+        public static final int tvBirthdate=0x7f08004b;
         public static final int tvNama=0x7f080042;
+        public static final int tvNameGuest=0x7f08004a;
         public static final int up=0x7f080008;
         public static final int useLogo=0x7f080012;
         public static final int withText=0x7f08001a;
@@ -1410,7 +1413,7 @@ containing a value of this type.
         public static final int activity_event_and_guest=0x7f030018;
         public static final int activity_guest=0x7f030019;
         public static final int activity_main=0x7f03001a;
-        public static final int griditem=0x7f03001b;
+        public static final int guestrow=0x7f03001b;
         public static final int mylist=0x7f03001c;
         public static final int support_simple_spinner_dropdown_item=0x7f03001d;
     }

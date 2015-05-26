@@ -17,6 +17,7 @@ public class EventAndGuest extends Activity {
     private Intent intent;
     private String name;
     private Button btnEvent;
+    private Button btnGuest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +28,13 @@ public class EventAndGuest extends Activity {
         TextView tvNama = (TextView)findViewById(R.id.tvNama);
         tvNama.setText(name);
 
-        Button btnGuest = (Button)findViewById(R.id.btnGuest);
+        btnGuest = (Button)findViewById(R.id.btnGuest);
         btnGuest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent iguest = new Intent(EventAndGuest.this,Guest.class);
-                startActivity(iguest);
+                iguest.putExtra("s","s");
+                startActivityForResult(iguest, 2);
             }
         });
         btnEvent = (Button)findViewById(R.id.btnEvent);
@@ -54,6 +56,11 @@ public class EventAndGuest extends Activity {
             String msg = data.getStringExtra("retValue");
             btnEvent.setText(msg);
 //            Toast.makeText(EventAndGuest.this,msg,Toast.LENGTH_SHORT).show();
+        }
+        else if(resultCode == RESULT_OK && requestCode == 2){
+            String msg = data.getStringExtra("retValue2");
+            btnGuest.setText(msg);
+            Toast.makeText(EventAndGuest.this,msg,Toast.LENGTH_SHORT).show();
         }
     }
 

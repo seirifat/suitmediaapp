@@ -9,12 +9,14 @@
     <GridView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/gridView"
+        android:id="@+id/gridView1"
+        android:numColumns="2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical|center_horizontal" />
 
 </RelativeLayout>
 <!-- From: file:/D:/Developer/Android/AndroidWorkspace/Suitmediaapp/app/src/main/res/layout/activity_guest.xml -->

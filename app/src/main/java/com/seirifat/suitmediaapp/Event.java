@@ -8,9 +8,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.seirifat.suitmediaapp.classes.CustomListAdapter;
+import com.seirifat.suitmediaapp.classes.EventListAdapter;
+import com.seirifat.suitmediaapp.classes.event;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Event extends ActionBarActivity {
@@ -18,38 +22,30 @@ public class Event extends ActionBarActivity {
     ListView list;
     Intent intent;
 
-    String[] itemname ={
-            "Event 1",
-            "Event 2",
-            "Event 3",
-    };
-    String[] itemdate ={
-            "15 Mei 2015",
-            "20 Mei 2015",
-            "28 Mei 2015",
-    };
-
-    Integer[] imgid={
-            R.drawable.ic_launcher,
-            R.drawable.ic_launcher,
-            R.drawable.ic_launcher,
-    };
+    List<event> listEvent = new ArrayList<event>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event);
         intent = getIntent();
-        CustomListAdapter adapter=new CustomListAdapter(this, itemname,itemdate,imgid);
-        list=(ListView)findViewById(R.id.theList);
+
+        for(int i=1;i<=3;i++) {
+            event ev = new event(R.drawable.ic_launcher, "Event "+i, i+" Mei 2015");
+            listEvent.add(ev);
+        }
+
+        EventListAdapter adapter = new EventListAdapter(Event.this,R.layout.mylist,listEvent);
+        list = (ListView)findViewById(R.id.theList);
         list.setAdapter(adapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String Slecteditem = itemname[+position];
-//                Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
-                intent.putExtra("retValue",Slecteditem);
+
+                TextView tv=(TextView)parent.getChildAt(position).findViewById(R.id.Itemname);
+                String teks = tv.getText().toString();
+                intent.putExtra("retValue",teks);
                 setResult(RESULT_OK,intent);
                 finish();
             }

@@ -9,6 +9,10 @@ public class event {
     private String name;
     private String date;
 
+    public event() {
+
+    }
+
     public event(int drawableId, String name, String date) {
         this.drawableId = drawableId;
         this.name = name;

@@ -334,8 +334,8 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
 int drawable ic_launcher 0x7f020033
-int id Itemdate 0x7f08004a
-int id Itemname 0x7f080049
+int id Itemdate 0x7f08004d
+int id Itemname 0x7f08004c
 int id action_bar 0x7f080031
 int id action_bar_activity_content 0x7f080000
 int id action_bar_container 0x7f080030
@@ -349,7 +349,7 @@ int id action_menu_presenter 0x7f080003
 int id action_mode_bar 0x7f08002e
 int id action_mode_bar_stub 0x7f08002d
 int id action_mode_close_button 0x7f080020
-int id action_settings 0x7f08004b
+int id action_settings 0x7f08004e
 int id activity_chooser_view_content 0x7f080021
 int id always 0x7f080016
 int id beginning 0x7f080013
@@ -368,13 +368,14 @@ int id end 0x7f080014
 int id etNama 0x7f080046
 int id expand_activities_button 0x7f080022
 int id expanded_menu 0x7f080028
-int id gridView 0x7f080045
+int id gridView1 0x7f080045
 int id home 0x7f080004
 int id homeAsUp 0x7f08000d
 int id icon 0x7f080026
 int id ifRoom 0x7f080018
 int id image 0x7f080023
-int id imageView 0x7f080048
+int id ivGambarGuest 0x7f080048
+int id linearLayout 0x7f080049
 int id listMode 0x7f080009
 int id list_item 0x7f080025
 int id middle 0x7f080015
@@ -405,7 +406,9 @@ int id textView 0x7f080040
 int id textView2 0x7f080041
 int id theList 0x7f08003f
 int id title 0x7f080027
+int id tvBirthdate 0x7f08004b
 int id tvNama 0x7f080042
+int id tvNameGuest 0x7f08004a
 int id up 0x7f080008
 int id useLogo 0x7f080012
 int id withText 0x7f08001a
@@ -438,7 +441,7 @@ int layout activity_event 0x7f030017
 int layout activity_event_and_guest 0x7f030018
 int layout activity_guest 0x7f030019
 int layout activity_main 0x7f03001a
-int layout griditem 0x7f03001b
+int layout guestrow 0x7f03001b
 int layout mylist 0x7f03001c
 int layout support_simple_spinner_dropdown_item 0x7f03001d
 int menu menu_event 0x7f0c0000
