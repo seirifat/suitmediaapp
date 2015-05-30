@@ -2,25 +2,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ivGambarGuest"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/ic_launcher"
-        android:layout_alignRight="@+id/linearLayout"
-        android:layout_alignEnd="@+id/linearLayout" />
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
-        android:layout_alignBottom="@+id/ivGambarGuest"
+        android:gravity="center_vertical|center_horizontal"
         android:layout_alignParentTop="true"
-        android:gravity="center_vertical|center_horizontal">
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_list"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivGambarGuest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:src="@drawable/ic_launcher" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +32,10 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Nama"
             android:id="@+id/tvNameGuest"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ivGambarGuest"
+            android:layout_toEndOf="@+id/ivGambarGuest" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,6 +43,10 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="birthdate"
             android:id="@+id/tvBirthdate"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:layout_below="@+id/tvNameGuest"
+            android:layout_toRightOf="@+id/ivGambarGuest"
+            android:layout_toEndOf="@+id/ivGambarGuest" />
     </LinearLayout>
+
 </RelativeLayout>
